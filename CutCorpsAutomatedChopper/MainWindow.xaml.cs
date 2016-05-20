@@ -31,12 +31,21 @@ namespace CutCorpsAutomatedChopper
 
         public const int MOUSEEVENTF_LEFTDOWN = 0x02;
         public const int MOUSEEVENTF_LEFTUP = 0x04;
+        public const int MOUSEEVENTF_RIGHTDOWN = 0x08;
+        public const int MOUSEEVENTF_RIGHTUP = 0x10;
 
         public static void LeftMouseClick(int xpos, int ypos)
         {
             SetCursorPos(xpos, ypos);
             mouse_event(MOUSEEVENTF_LEFTDOWN, xpos, ypos, 0, 0);
             mouse_event(MOUSEEVENTF_LEFTUP, xpos, ypos, 0, 0);
+        }
+
+        public static void RightMouseClick(int xpos, int ypos)
+        {
+            SetCursorPos(xpos, ypos);
+            mouse_event(MOUSEEVENTF_RIGHTDOWN, xpos, ypos, 0, 0);
+            mouse_event(MOUSEEVENTF_RIGHTUP, xpos, ypos, 0, 0);
         }
 
         public MainWindow()
@@ -56,19 +65,23 @@ namespace CutCorpsAutomatedChopper
                 var width = dotaDisplayArea.Right;
                 var height = dotaDisplayArea.Bottom;
 
-                while (true)
+                while (width !=0 && height !=0)
                 {
                     for (var y = (int)Math.Round(width * .13); y < height * .8; y += 20)
                     {
-                        for (var x = (int)Math.Round(width * .15); x < width * .66; x += 15)
+                        for (var x = (int)Math.Round(width * .15); x < width * .64; x += 15)
                         {
 
                             await Dispatcher.Yield(DispatcherPriority.ApplicationIdle);
                             LeftMouseClick(x, y);
+
+                            Random r = new Random();
+                            int offset = r.Next(-10,10);
+                            RightMouseClick(x+offset, y+offset);
                         }
-                        await Task.Delay(1);
+                        await Task.Delay(5);
                     }
-                    await Task.Delay(2700);
+                    await Task.Delay(900);
                 }
             }
         }

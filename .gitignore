@@ -1,0 +1,57 @@
+*.DS_Store
+
+*.generated.cs
+
+*.[Oo]bj
+*.[Cc]ache
+*.user
+*.suo
+*.bak
+*.ncb
+*.log
+*.log.*
+*.vssscc
+*.vspscc
+_ReSharper*
+
+[Oo]bj/
+[Dd]ebug*/
+[Rr]elease*/
+
+publish
+
+*.Publish.xml
+
+packages
+
+[Bb]in
+[Oo]bj
+
+App_Data
+AppData
+
+Logs/
+*.dbmdl
+
+# Merge Files
+*.orig
+/.vs
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
