@@ -1,0 +1,24 @@
+﻿<Window x:Class="CutCorpsAutomatedChopper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CutCorpsAutomatedChopper"
+        mc:Ignorable="d"
+        Title="CUT CO AUTOMATED CUTTER" Height="94.174" Width="273.623" Background="#FF8D2A2A" BorderBrush="#FF931A1A" OpacityMask="#FF891818" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" MouseDown="Window_MouseDown">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="41*"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="TimberSawImage" Source="Timbersaw.png" Stretch="Fill" Grid.RowSpan="3"/>
+        <TextBlock x:Name="Note" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Make sure DOTA 2 and the minigame is open." VerticalAlignment="Top" Foreground="White" FontSize="11.333" FontFamily="Stencil" Grid.Row="0" Background="Black" />
+        <Button x:Name="CUT" Content="CUT CUT CUT" HorizontalAlignment="Center" VerticalAlignment="Top" Width="109" FontFamily="Capture it" BorderThickness="0" Background="#FF911D1D" Opacity="0.8" Height="16" Grid.Row="1" Foreground="White" Click="CUT_Click">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <TextBlock x:Name="PanicText" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Press ANY key to QUIT" VerticalAlignment="Top" Foreground="White" FontSize="21.333" FontFamily="Stencil" Grid.Row="2"/>
+    </Grid>
+</Window>
