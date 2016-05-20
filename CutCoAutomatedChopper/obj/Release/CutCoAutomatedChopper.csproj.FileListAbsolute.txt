@@ -1,0 +1,15 @@
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\bin\Release\CutCoAutomatedChopper.exe.config
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\bin\Release\CutCoAutomatedChopper.exe
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\bin\Release\CutCoAutomatedChopper.pdb
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\obj\Release\CutCoAutomatedChopper.csprojResolveAssemblyReference.cache
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\obj\Release\App.baml
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\obj\Release\App.g.cs
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\obj\Release\MainWindow.g.cs
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\obj\Release\CutCoAutomatedChopper_MarkupCompile.cache
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\obj\Release\CutCoAutomatedChopper_MarkupCompile.lref
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\obj\Release\MainWindow.baml
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\obj\Release\CutCoAutomatedChopper.g.resources
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\obj\Release\CutCoAutomatedChopper.Properties.Resources.resources
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\obj\Release\CutCoAutomatedChopper.csproj.GenerateResource.Cache
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\obj\Release\CutCoAutomatedChopper.exe
+E:\Projects\Personal\CutCoAutomatedChopper\CutCoAutomatedChopper\obj\Release\CutCoAutomatedChopper.pdb
