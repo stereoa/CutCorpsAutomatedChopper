@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CutCorpsAutomatedChopper"
         mc:Ignorable="d"
-        Title="CUT CO AUTOMATED CUTTER" Height="94.174" Width="273.623" Background="#FF8D2A2A" BorderBrush="#FF931A1A" OpacityMask="#FF891818" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" MouseDown="Window_MouseDown">
+        Title="C.U.T. CORPS AUTOMATED CUTTER" Height="94.174" Width="273.623" Background="#FF8D2A2A" BorderBrush="#FF931A1A" OpacityMask="#FF891818" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False" WindowStartupLocation="CenterScreen" MouseDown="Window_MouseDown">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="25*"/>
