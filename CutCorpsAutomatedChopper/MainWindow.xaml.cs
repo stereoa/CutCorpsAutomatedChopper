@@ -58,15 +58,17 @@ namespace CutCorpsAutomatedChopper
 
                 while (true)
                 {
-                    for (var x = (int)Math.Round(width * .15); x < width * .66; x += 80)
+                    for (var y = (int)Math.Round(width * .13); y < height * .8; y += 30)
                     {
-                        for (var y = (int)Math.Round(width * .13); y < height * .8; y += 40)
+                        for (var x = (int)Math.Round(width * .15); x < width * .66; x += 120)
                         {
+
                             await Dispatcher.Yield(DispatcherPriority.ApplicationIdle);
                             LeftMouseClick(x, y);
-                            await Task.Delay(10);
+                            
                         }
                     }
+                    await Task.Delay(1000);
                 }
             }
         }
